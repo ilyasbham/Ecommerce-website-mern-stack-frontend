@@ -53,7 +53,7 @@ function App() {
      const stripePromise = stripeApiKey ? loadStripe(stripeApiKey) : null;
 
   async function getStripeApiKey() {
-    const { data } = await axios.get("/api/v1/stripeapikey");
+    const { data } = await axios.get(`${import.meta.env.VITE_API_URL}/stripeapikey`);
 
     setStripeApiKey(data.stripeApiKey);
   }
