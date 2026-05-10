@@ -1,14 +1,3 @@
-// import React, { Fragment, useEffect } from "react";
-// import { CgMouse } from "react-icons/cg";
-// import "./Home.css"
-// import Product from "./ProductCard.jsx"
-// import MetaData from "../layout/MetaData.jsx";
-// import {clearErrors, getProduct} from "../../actions/productAction";
-// import { useSelector, useDispatch } from "react-redux";
-// import Loader from "../layout/Loader/Loader.jsx";
-// import "react-toastify/dist/ReactToastify.css";
-// import { toast } from "react-toastify";
-
 import React, { Fragment, useEffect } from "react";
 import { CgMouse } from "react-icons/cg";
 import "./Home.css";

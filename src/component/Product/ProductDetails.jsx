@@ -1,27 +1,3 @@
-// import React, { Fragment, useEffect, useState } from "react";
-// import "./ProductDetails.css";
-// import { useSelector, useDispatch } from "react-redux";
-// import { getProductDetails, clearErrors, newReview } from "../../actions/productAction";
-// import { useParams } from "react-router-dom";
-// import ReactStars from "react-rating-stars-component";
-// import ReviewCard from "./ReviewCard.jsx";
-// import Loader from "../layout/Loader/Loader.jsx";
-// import MetaData from "../layout/MetaData.jsx";
-// import { addItemsToCart } from "../../actions/cartAction.js";
-// import { ToastContainer, toast } from "react-toastify";
-// import "react-toastify/dist/ReactToastify.css";
-// import { NEW_REVIEW_RESET } from "../../constants/productConstants";
-
-// import {
-//   Dialog,
-//   DialogActions,
-//   DialogContent,
-//   DialogTitle,
-//   Button,
-// } from "@mui/material";
-
-// import { Rating } from "@mui/material";
-
 import React, { Fragment, useEffect, useState } from "react";
 import "./ProductDetails.css";
 import { useSelector, useDispatch } from "react-redux";

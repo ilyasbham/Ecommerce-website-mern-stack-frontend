@@ -86,9 +86,22 @@
   padding-bottom: 0.5vmax;
 }
 
-.productCard > img {
-  width: 14vmax;
+.productCardImg {
+  width: 100%;
+  aspect-ratio: 1 / 1;   /* always square */
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0, 158, 245, 0.922);
+}
+
+.productCardImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;   /* shows full image */
 }
 
 .productCard > div {
